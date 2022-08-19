@@ -27,7 +27,7 @@ jobs:
           java-version: '17'
 
       - name: Gradle Dependency Submission
-        uses: mikepenz/gradle-dependency-submission@v0.5.0
+        uses: mikepenz/gradle-dependency-submission@main
         with:
           gradle-build-module: |-
             :server

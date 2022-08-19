@@ -29,4 +29,6 @@ jobs:
       - name: Gradle Dependency Submission
         uses: mikepenz/gradle-dependency-submission@v0.5.0
         with:
-          gradle-build-module: ":app"
+          gradle-build-module: |-
+            :server
+            :client:rest

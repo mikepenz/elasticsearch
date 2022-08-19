@@ -32,3 +32,5 @@ jobs:
           gradle-build-module: |-
             :server
             :client:rest
+          gradle-build-configuration: |-
+            compileClasspath

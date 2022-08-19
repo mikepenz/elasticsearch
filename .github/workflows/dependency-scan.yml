@@ -25,3 +25,4 @@ jobs:
             :client:rest
           gradle-build-configuration: |-
             compileClasspath
+          sub-module-mode: INDIVIDUAL

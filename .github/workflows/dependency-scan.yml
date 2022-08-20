@@ -18,11 +18,11 @@ jobs:
           java-version: '17'
 
       - name: Gradle Dependency Submission
-        uses: mikepenz/gradle-dependency-submission@main
+        uses: mikepenz/gradle-dependency-submission@0.7.0
         with:
           gradle-build-module: |-
             :server
             :client:rest
           gradle-build-configuration: |-
             compileClasspath
-          sub-module-mode: INDIVIDUAL
+          sub-module-mode: INDIVIDUAL_DEEP
